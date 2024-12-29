@@ -1,0 +1,23 @@
+.flexHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.flexSubheader{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.imgResize{
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 5px;
+
+}
+.namedate{
+    display: flex;
+    gap: 5px;
+}

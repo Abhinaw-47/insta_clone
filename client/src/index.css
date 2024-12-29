@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+ 
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: 'Poppins', sans-serif; /* Consistent font */
+    margin: 0;
+    padding: 0;
+}
+  
+
+  .text{
+    color: #8e8e8e;
+  }
+
+.username {
+  font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #ffffff; /* Bright white */
+    line-height: 1.2;
+}
+
+.likes-count {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff; /* Bright white for emphasis */
+}
+
+.item{
+  border: dotted 2px blue;
+}
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color from parent */
+}
+input::placeholder {
+  color: white; /* Adjust the color as needed */
+}

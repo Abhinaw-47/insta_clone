@@ -1,0 +1,8 @@
+
+
+.flexHome{
+    display: flex;
+    max-width: 90%;
+    /* margin: 0 auto; */
+    /* border: solid 1px yellow; */
+}

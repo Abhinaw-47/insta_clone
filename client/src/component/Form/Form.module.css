@@ -1,0 +1,50 @@
+
+
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.flexForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 2px solid wheat; */
+  padding: 30px;
+}
+.instagramlogo {
+  /* this is how to set a image to a fixed height responsively */
+  max-width: 175px;
+  max-height: 51px;
+  width: 100%;
+  height: auto;
+}
+
+.btnlogin {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btngoogle {
+  background-color: #ffffff; /* White background */
+  color: #757575;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}

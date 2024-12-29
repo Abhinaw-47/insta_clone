@@ -1,0 +1,23 @@
+.text{
+    font-size: 16px;
+    color: #f5f5f5;
+  
+}
+
+.sidebarContainer{
+    /* max-width: 220px;
+    max-height: auto; */
+    width: 40%;
+    padding:12px;
+    flex: 1;
+    /* border: dotted 2px limegreen; */
+}
+
+
+
+.iconText{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}

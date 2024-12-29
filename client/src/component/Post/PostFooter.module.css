@@ -1,0 +1,14 @@
+.footer{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: space-between;
+}
+.subIcons{
+    display: flex;
+    gap:15px;
+}

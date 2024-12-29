@@ -1,0 +1,17 @@
+
+
+.postsWrapper{
+
+    width: 100%;
+    /* max-width: 630px; */
+    /* max-height: auto; auto is the default value for height and doesn't limit the maximum height,  */
+    /* so this line has no effect. You can safely omit it unless you want to define a maximum height. */
+    /* padding: 110px; */
+    height: auto;
+    flex: 2;
+    /* border: solid 2px blue; */
+    padding: 0 170px; 
+    min-width: 468px;
+
+    margin: 16px 0px 0px;
+}
