@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://insta-cloneapi.vercel.app/" });
+const API = axios.create({ baseURL: "https://insta-cloneapi.vercel.app" });
 
 API.interceptors.request.use((req)=>{
   if(localStorage.getItem('user')){
