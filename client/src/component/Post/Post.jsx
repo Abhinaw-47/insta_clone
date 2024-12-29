@@ -77,7 +77,7 @@ useEffect(()=>{
         )}
       </div>
 
-      <img src={`https://insta-cloneapi.vercel.app//uploads/${imagePath}`} alt="" />
+      <img src={`https://insta-cloneapi.vercel.app/uploads/${imagePath}`} alt="" />
 
       <div>
         <PostFooter />
